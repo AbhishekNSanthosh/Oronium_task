@@ -1,0 +1,21 @@
+@import '_variables.scss';
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.text {
+    color: $white;
+    font-family: Sofia;
+    font-size: 68px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-family: "Sofia", cursive;
+
+}

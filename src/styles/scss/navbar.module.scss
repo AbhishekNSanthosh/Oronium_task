@@ -9,17 +9,103 @@
     color: $white;
 }
 
+@media only screen and (max-width: 880px) {
+    .container {
+        position: fixed;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem 0vw;
+        color: $white;
+    }
+}
+
+.containerStyled {
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0vw;
+    color: $white;
+    background-color: black;
+}
+
 .wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+@media only screen and (max-width: 880px) {
+    .wrapper {
+        display: flex;
+        align-items: center;
+        padding: 0rem 3vw;
+        justify-content: space-between;
+    }
+}
+
+.drawer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 95vh;
+    margin-top: 2vh;
+    width: 100vw;
+    background-color: black;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.resItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.resLinkItem {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3vw;
+}
+
+// @media only screen and (max-width: 880px) {
+//     .container {
+//         display: flex;
+//         flex-direction: column;
+//         min-height: 100vh;
+//         width: 100vw;
+//         padding: 0rem 5vw 5vh;
+//     }
+// }
+
 .left {
     flex: 4;
     display: flex;
     width: 100%;
 }
+
+@media only screen and (max-width: 880px) {
+    .left {
+        flex: 12;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+}
+
 
 .center {
     flex: 4;
@@ -28,6 +114,17 @@
     justify-content: center;
     gap: 1rem;
     width: 100%;
+}
+
+@media only screen and (max-width: 880px) {
+    .center {
+        flex: 4;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        width: 100%;
+    }
 }
 
 .right {
@@ -39,12 +136,63 @@
     width: 100%;
 }
 
+@media only screen and (max-width: 880px) {
+    .right {
+        flex: 4;
+        display: none;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 1rem;
+        width: 100%;
+    }
+}
+
 .link {
-    color: $font-size-base;
+    // color: $font-size-base;
     font-weight: 400;
     cursor: pointer;
 }
 
-.logo{
+.logo {
     font-size: 1.1rem;
+}
+
+.icon {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 880px) {
+    .icon {
+        display: flex;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+}
+
+.socials {
+    display: flex;
+    position: absolute;
+    bottom: 15vh;
+    gap: 2rem;
+}
+
+.credits {
+    position: absolute;
+    bottom: 2rem;
+}
+
+.credit {
+    font-size: 0.8rem;
+}
+
+.socialIcon {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.highlight {
+    color: red;
+    font-weight: 600;
 }

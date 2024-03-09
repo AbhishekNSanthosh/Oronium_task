@@ -19,7 +19,7 @@ body {
   -o-transition: all 600ms ease;
   -moz-transition: all 600ms ease;
   transition: all 600ms ease;
-  background: linear-gradient(to bottom,rgba(0, 0, 0, 0.555),rgba(0, 0, 0, 0.555)),url('/images/background.svg')  no-repeat fixed;
+  background: linear-gradient(to bottom,rgba(0, 0, 0, 0.555),rgba(0, 0, 0, 0.555)),url('/images/background.svg') center/cover no-repeat fixed;
 
 }
 

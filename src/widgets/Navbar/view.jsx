@@ -74,7 +74,7 @@ export default function Navbar() {
                     </div>
 
                     <div className={styles.credits}>
-                        <span className={styles.credit}>Made with ❤️‍🩹 by <Link className={styles.highlight} target="_blank" href="https://www.linkedin.com/in/abhishek-santhosh/">Abhishek</Link></span>
+                        <span className={styles.credit}>Made with ❤️‍🩹 by <Link className={styles.highlight} target="_blank" href="https://www.linkedin.com/in/abhishek-santhosh/">Abhishek Santhosh</Link></span>
                     </div>
                 </div>
             }
